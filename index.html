@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Family Book</title>
+</head>
+<body>
+<h1>MY CHOUDHARY Book</h1>
+<img src="Untitled design.png" id="MFB">
+<h3 id="FB">My CHOUDHARY Book</h3>
+<button type="button" onclick="family()">NEXT</button>
+ <script>
+var names=[
+"Father LAXMAN CHOUDHARY",
+"Mother SHILPA CHOUDHARY",
+"Cutest DHIYARA CHOUDHARY",
+"One And Only VALAY CHOUDHARY"
+];
+var image=[
+"DADDY.PNG",
+"MOM.PNG",
+"CUITEST.PNG",
+"ME.PNG"
+];
+var i=0;
+function family(){
+    document.getElementById("FB").innerHTML=names[i];
+    document.getElementById("MFB").src=image[i];
+i++;
+if(i==4){
+    i=0;
+}}
+ </script>   
+</body>
+</html>

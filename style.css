@@ -1,0 +1,13 @@
+#MFB {
+    width: 400px;
+    border-color:red;
+    border-width: 40px;
+}
+body {
+    text-align: center;
+    background-color: 26B4E2;
+}
+img {
+    border-color:red;
+    border-width: 40px;
+}
